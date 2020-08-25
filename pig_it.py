@@ -15,8 +15,3 @@ def pig_it(words):
 
 Test.assert_equals(pig_it('Pig latin is cool'),'igPay atinlay siay oolcay')
 Test.assert_equals(pig_it('This is my string'),'hisTay siay ymay tringsay')
-
-def scramble(s1, s2):
-    if (sorted(s1) == sorted(s2)) or (s1.find(s2)):
-        return True
-    return False
